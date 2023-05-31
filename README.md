@@ -59,28 +59,28 @@ Please clone or pull this repo first,
 		If you want to run it in local, open the terminal and hit "npm run start", then go to postman and create new request, all of them using POST method.
 	
 		1. Question 01 	-> localhost:4000/powersum
-						or
-						-> https://lunchactuallyquiz.herokuapp.com/powersum
+				or
+				-> https://lunchactuallyquiz.herokuapp.com/powersum
 						
 				Body:	{
-							"x" : 100,
-							"n" : 3
-						}
+						"x" : 100,
+						"n" : 3
+					}
 						
 						
 		2. Question 02 	-> localhost:4000/timeconversion
-						or
-						-> https://lunchactuallyquiz.herokuapp.com/timeconversion
+				or
+				-> https://lunchactuallyquiz.herokuapp.com/timeconversion
 						
 				Body:	{
-							"time" : "07:05:45PM"
-						}
+						"time" : "07:05:45PM"
+					}
 						
 						
 		3. Question 03 	-> localhost:4000/camelcasecount
-						or
-						-> https://lunchactuallyquiz.herokuapp.com/camelcasecount
+				or
+				-> https://lunchactuallyquiz.herokuapp.com/camelcasecount
 						
 				Body:	{
-							"words" : "saveChangesInTheEditor"
-						}
+						"words" : "saveChangesInTheEditor"
+					}
