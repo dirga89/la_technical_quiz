@@ -1,0 +1,30 @@
+{
+  "name": "la_technical_quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start01": "node question01_powersum.js",
+    "start02": "node question02_timeconversion.js",
+    "start03": "node question03_camelcasecount.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirga89/la_technical_quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirga89/la_technical_quiz/issues"
+  },
+  "homepage": "https://github.com/dirga89/la_technical_quiz#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
