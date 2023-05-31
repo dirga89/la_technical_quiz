@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "305e23ab-b0d3-4c09-a894-621bb69cf6d0",
+		"name": "LA_Tech_Quiz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24843025"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"item": [
+				{
+					"name": "PowerSum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"x\" : 100,\r\n    \"n\" : 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:4000/powersum",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"powersum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeConversion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"time\" : \"07:05:45PM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:4000/timeconversion",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"timeconversion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CamelCaseCount",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"words\" : \"thisIsSpartaaaaa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:4000/camelcasecount",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"camelcasecount"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "lunchactuallyquiz.herokuapp.com",
+			"item": [
+				{
+					"name": "PowerSum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"x\" : 100,\r\n    \"n\" : 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lunchactuallyquiz.herokuapp.com/powersum",
+							"protocol": "https",
+							"host": [
+								"lunchactuallyquiz",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"powersum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeConversion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"time\" : \"07:05:45PM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lunchactuallyquiz.herokuapp.com/timeconversion",
+							"protocol": "https",
+							"host": [
+								"lunchactuallyquiz",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"timeconversion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CamelCaseCount",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"words\" : \"thisIsSpartaaaaa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lunchactuallyquiz.herokuapp.com/camelcasecount",
+							"protocol": "https",
+							"host": [
+								"lunchactuallyquiz",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"camelcasecount"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
